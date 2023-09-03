@@ -1,0 +1,5 @@
+﻿  TestMain.cpp
+f:\stl源码剖析\sgi_allocator\sgi_test\stl_hashtable.h(242): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  f:\stl源码剖析\sgi_allocator\sgi_test\stl_hashtable.h(242): note: 参见对正在编译的 类 模板 实例化 "hashtable<Value,Key,HashFcn,ExtractKey,Alloc>" 的引用
+f:\stl源码剖析\sgi_allocator\sgi_test\testmain.cpp(67): warning C4326: “main”的返回类型应为“int”而非“void”
+  allocator.vcxproj -> F:\STL源码剖析\SGI_allocator\SGI_Test\x64\Debug\allocator.exe

@@ -1,0 +1,37 @@
+﻿  allocator.cpp
+f:\stl源码剖析\sgi_allocator\allocator\allocator.cpp(73): warning C4326: “main”的返回类型应为“int”而非“void”
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\list(535): error C2440: “初始化”: 无法从“by::allocator<_Newfirst>”转换为“by::allocator<_Newfirst>”
+          with
+          [
+              _Newfirst=std::_List_node<int,void *>
+          ]
+          and
+          [
+              _Newfirst=std::_Container_proxy
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\list(535): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\list(534): note: 编译 类 模板 成员函数 "void std::_List_alloc<std::_List_base_types<_Ty,_Alloc>>::_Free_proxy(void)" 时
+          with
+          [
+              _Ty=int,
+              _Alloc=by::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\list(522): note: 参见对正在编译的函数 模板 实例化“void std::_List_alloc<std::_List_base_types<_Ty,_Alloc>>::_Free_proxy(void)”的引用
+          with
+          [
+              _Ty=int,
+              _Alloc=by::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\list(689): note: 参见对正在编译的 类 模板 实例化 "std::_List_alloc<std::_List_base_types<_Ty,_Alloc>>" 的引用
+          with
+          [
+              _Ty=int,
+              _Alloc=by::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\list(740): note: 参见对正在编译的 类 模板 实例化 "std::_List_buy<_Ty,_Alloc>" 的引用
+          with
+          [
+              _Ty=int,
+              _Alloc=by::allocator<int>
+          ]
+  f:\stl源码剖析\sgi_allocator\allocator\allocator.cpp(74): note: 参见对正在编译的 类 模板 实例化 "std::list<int,by::allocator<int>>" 的引用
